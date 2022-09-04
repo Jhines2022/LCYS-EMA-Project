@@ -20,6 +20,9 @@
 * socket.setdefaulttimeout(**0.2**)
 * result = s.connect_ex(('**IP Address**', port))
 
+<br/>
+
+
 ## Screenshots of code input and output
 
 
@@ -70,10 +73,9 @@
 #### This particular scan took 2.25 seconds but it can take longer.
 #### Scans during testing took between 2.25 seconds and upto 7.3 seconds 
 
-Get the Internal Port Scanner ([HERE]([https://www.python.org/downloads/](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py)))
-![]()
+## Access The Internal Port Scanner
+*  ([Internal Port Scanner](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
 
-Copyright and licensing information
 
 Credits and acknowledgements
 
