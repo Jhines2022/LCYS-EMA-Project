@@ -20,6 +20,11 @@
 * socket.setdefaulttimeout(**0.2**)
 * result = s.connect_ex(('**IP Address**', port))
 
+## Documentation
+
+* ([Python 3.10.6 documentation](https://www.python.org/doc/))
+* ([How to use Python on different platforms](https://docs.python.org/3/using/index.html))
+
 <br/>
 
 
@@ -76,6 +81,4 @@
 ## Access The Internal Port Scanner
 *  ([Internal Port Scanner](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
 
-
-Credits and acknowledgements
 
