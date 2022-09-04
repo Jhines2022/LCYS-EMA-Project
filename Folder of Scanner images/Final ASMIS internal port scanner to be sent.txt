@@ -1,0 +1,62 @@
+#Final ASMIS internal port scanner to be sent
+
+#MODULES sys, socket, datetime, result. 
+import sys #allows operating on the interpreter as it provides access to the variables and functions
+import socket #Provides access to the BSD socket interface
+from datetime import datetime #The datetime module supplies classes for manipulating dates and times
+from unittest import result # provides a rich set of tools for constructing and running tests
+
+if len(sys.argv) != 2: #If not equal to 2, display the following messages below
+    print("Invalid amount of arguments due to scanning internally")
+    print("Syntax: Testing Internal ASMIS Port Scanner")
+
+#Define the desired target which would be directed at Queens medical centre ASMIS network. 
+else:  #The amount of arguments I would like for the scan. 
+    target = socket.gethostbyname('45.33.32.156', sys.argv[1]) #host is a string representing either a hostname in internet domain notation or an IPv4 address
+
+
+#Adds a banner (Area) containing information on who is being scanned, the date and the time of the scan.
+print("-" * 30) #will create 30 dashes as a upper border
+print("-" * 70) #will create 70 dashes as a upper border
+print("-" * 100) #will create 100 dashes as a upper border
+print("Scanning scanme.nmap.org for testing reasons due to permissions. ") #will display the print text/message. I have inserted scanme.nmap.org but can be changed to required IP address/url or name.
+print("-" * 70) #will create 70 dashes as a separation border to cleary separate the two lines of text for reading purposes.
+print("Time started " + str(datetime.now())) #this displays the date and time that the scan started took place.
+print("-" * 100) #will create 100 dashes as a lower border
+print("-" * 70) #will create 70 dashes as a lower border
+print("-" * 30) #will create 30 dashes as a lower border
+
+t1 = datetime.now() #check the time that the scan began using t1 as the variable and datetime.now object as the value
+
+
+try: #It will TRY the following loop for each port until all the ports in the "for port in range" has been scanned
+    for port in range(1,100): #will scan ports from 1 to 100 and then end (The larger the port scan, the longer it will take)
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #AF_INET is IPv4 and SOCK_STREAM is Rhost
+                socket.setdefaulttimeout(0.2) #it will connect to a port. if unconnectable, it will wait for one fifth of a second (due to UDP) before moving on because if they cannot be completed within the timeout specified for the socket, then the operation will fail. 
+                result = s.connect_ex(('45.33.32.156', port)) #returns an error indicator. s.connect is also a method that actively initiates TCP server connection
+                if result ==0: #taken from the result import module of unit test.
+                        print("Port {} is OPEN! Check if this needs changing".format(port)) #displays the message only if the port is open when the result ==0
+
+
+ #constructing ways to exit the program logically
+except KeyboardInterrupt: #hit ctrl+D or exit to exit the program
+        print("\n Exiting program.")
+        sys.exit() #hit ctrl+D or exit to exit the program
+
+except socket.gaierror: #if no hostname, then exit the program
+        print("Hostname could not be resolved, scan will now exit.") 
+        sys.exit()
+
+except socket.error: #if it can not connect to the ip address that we specify, then we want to exit.
+        print("Could not connect to the specified IP address")
+        sys.exit() 
+
+#Check the datetime again for comparison by assigning t2 to datetime.now
+t2 = datetime.now()
+
+#Will compare t1 and t2 to tell us how the the scan took
+total = t2 - t1
+print("-" * 70) #will create 70 dashes as a separation border to clearly separate the time to complete from the port scan results.
+
+#Will display how long the chosen scan took.
+print ("Time to complete =  ", total)
