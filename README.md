@@ -14,4 +14,4 @@ Credits and acknowledgements
 
 ![alt text](image url "image Title")
 
-[(https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/ifLen.png)]
+(https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/ifLen.png)
