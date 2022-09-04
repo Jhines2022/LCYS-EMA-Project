@@ -25,6 +25,10 @@
 * ([Python 3.10.6 documentation](https://www.python.org/doc/))
 * ([How to use Python on different platforms](https://docs.python.org/3/using/index.html))
 
+## Code
+* Port Scanner code without comments([look at code](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
+* Port Scanner code with comments([look at code](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
+
 <br/>
 
 
