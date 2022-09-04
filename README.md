@@ -1,23 +1,25 @@
 # LCYS-EMA-Project
+## Internal Python Port Scanner for checking which ports are open on the Queens Medical Center ASMIS network
 
-Configuration
+> IMPORTANT, Please read! The hostname being used in this example is for demonstration purposes only and must be changed to a permissioned target prior to use. This scanner has been developed for a project to scan internally only. 
+
+## Pre-requisites
+* Python v3.10.6 ([DOWNLOAD HERE](https://www.python.org/downloads/))
+* An IDE such as PyCharm IDE (Free Community) ([DOWNLOAD HERE](https://www.jetbrains.com/pycharm/)) if you wish to run it outside of google. Otherwise, Google Colab will run it easily.
+* Run the code directly in Google colab if you have a google account ([Link to Google Colab](https://colab.research.google.com/notebook))
 
 Installation
 
-Operating instructions
 
 Files
 
-Copyright and licensing information
-
-Credits and acknowledgements
-
+## Screenshots of code input and output
 
 Chosen Modules
 
 ![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/importSection.png)
 
-This If else statement
+This if else statement
 
 ![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/ifLen.png)
 
@@ -62,4 +64,7 @@ My scans during testing took between 2.25 seconds and upto 7.3 seconds
 
 ![]()
 
+Copyright and licensing information
+
+Credits and acknowledgements
 
