@@ -81,7 +81,7 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 ![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/OUTPUTfull.png)
 
 #### This particular scan took 2.25 seconds but it can take longer.
-#### Scans during testing took between 2.25 seconds and upto 7.3 seconds 
+#### Scans during testing took between 2.25 seconds and upto 15.19 seconds, depending on the time and system resources 
 
 ## Access The Internal Port Scanner
 *  ([Internal Port Scanner](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
