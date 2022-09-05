@@ -9,7 +9,16 @@
 
 <br/>
 
+----
+
+## Video Demo
+
 https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c-b760-7e4d4e184cda.mp4
+
+#### This video demo of a scan took 15.19 seconds to scan 100 ports but the screenshots will also show that it took just 2.25 seconds on a different day.
+#### It appears that the time of day can make a significant difference on a scan of the permissioned target
+
+----
 
 ## Pre-requisites
 * Python v3.10.6 ([DOWNLOAD HERE](https://www.python.org/downloads/))
@@ -34,8 +43,9 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 
 <br/>
 
+----
 
-## Screenshots of code input and output
+## Screenshots of Code Input and Output
 
 
 ### Chosen Modules/Libraries
@@ -78,7 +88,7 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 
 ![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/TimeToCompleteOutput.png)
 
-#### The Program Output (Full) from running the script.
+### The Program Output (Full) from running the script.
 
 ![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/OUTPUTfull.png)
 
@@ -88,10 +98,13 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 ## Access The Internal Port Scanner
 *  ([Internal Port Scanner](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
 
+----
+
 ## UML Process to help illustrate the 3 groups of port ranges assigned to systems as well-known ports(0 to 1023), registered ports(1024 to 49151) and private ports (49152–65535) 
 
 ![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/UMLforScanner.png)
 
+----
 
 ## Credits and acknowledgments
 *  Geeksforgeeks ([Defining a target](https://www.geeksforgeeks.org/port-scanner-using-python/?ref=gcse))
@@ -100,7 +113,7 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 *  Python ([How to use Python on different platforms](https://docs.python.org/3/using/index.html))
 *  Python ([Python 3.10.6 documentation](https://www.python.org/doc/))
 
-
+----
 
 
 
