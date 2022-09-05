@@ -1,7 +1,7 @@
 # LCYS-EMA-Project
 ## Internal Python Port Scanner for checking which ports are open on the Queens Medical Center ASMIS network
 #### This python script was put together to help check and mitigate a potential security issue that was highlighted in unit 9s ASMIS Essay.
-#### list of References used while learning the "how and why of the parts" of this script are located at the end of this page  
+#### list of Credits and Acknowledgments to information used while learning the "how and why of the parts" of this script are located at the end of this page  
 
 <br/>
 
@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 * ([Python 3.10.6 documentation](https://www.python.org/doc/))
 * ([How to use Python on different platforms](https://docs.python.org/3/using/index.html))
 
-## Code
+## Port Scanner Code
 * Port Scanner code without comments ([look at code](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
 * Port Scanner code with comments ([look at code](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_Port_Scanner(%2B-Comments).ipynb))
 
@@ -93,11 +93,14 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 ![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/UMLforScanner.png)
 
 
-## References
-*  Python ([Python 3.10.6 documentation](https://www.python.org/doc/)) [Accessed on ]
-*  Python ([How to use Python on different platforms](https://docs.python.org/3/using/index.html))
-*  Python ([Creating a Socket](https://docs.python.org/3/howto/sockets.html))
+## Credits and acknowledgments
 *  Geeksforgeeks ([Defining a target](https://www.geeksforgeeks.org/port-scanner-using-python/?ref=gcse))
 *  Heath Adams TCM Security ([Introduction to Python](https://academy.tcm-sec.com/))
+*  Python ([Creating a Socket](https://docs.python.org/3/howto/sockets.html))
+*  Python ([How to use Python on different platforms](https://docs.python.org/3/using/index.html))
+*  Python ([Python 3.10.6 documentation](https://www.python.org/doc/))
+
+
+
 
 
