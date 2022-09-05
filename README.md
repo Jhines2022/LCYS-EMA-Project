@@ -7,6 +7,7 @@
 
 <br/>
 
+https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c-b760-7e4d4e184cda.mp4
 
 ## Pre-requisites
 * Python v3.10.6 ([DOWNLOAD HERE](https://www.python.org/downloads/))
@@ -84,6 +85,9 @@
 
 ## Access The Internal Port Scanner
 *  ([Internal Port Scanner](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
+
+
+
 
 
 
