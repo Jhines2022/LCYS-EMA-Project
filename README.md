@@ -5,7 +5,7 @@
 
 <br/>
 
-> IMPORTANT, Please read! The hostname being used in this example is for demonstration purposes only and must be changed to a permissioned target prior to use. This scanner has been developed for a project to scan internally only. 
+> **`IMPORTANT`, Please read!** The hostname being used in this example is for demonstration purposes only and must be changed to a permissioned target prior to use. This scanner has been developed for a project to scan internally only. 
 
 <br/>
 
