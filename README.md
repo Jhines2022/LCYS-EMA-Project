@@ -86,3 +86,5 @@
 *  ([Internal Port Scanner](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
 
 
+![](https://raw.githubusercontent.com/Jhines2022/LCYS-EMA-Project/main/Video%20of%20Port%20Scanner.mp4)
+
