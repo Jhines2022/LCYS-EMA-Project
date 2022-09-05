@@ -86,7 +86,9 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 ## Access The Internal Port Scanner
 *  ([Internal Port Scanner](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/EMA_port_scanner.py))
 
+## UML Process to help illustrate the 3 groups of port ranges assigned to systems as well-known ports(0 to 1023), registered ports(1024 to 49151) and private ports (49152–65535) 
 
+![](https://github.com/Jhines2022/LCYS-EMA-Project/blob/main/Folder%20of%20Scanner%20images/UMLforScanner.png)
 
 
 
