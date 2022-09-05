@@ -1,5 +1,7 @@
 # LCYS-EMA-Project
 ## Internal Python Port Scanner for checking which ports are open on the Queens Medical Center ASMIS network
+#### This python script was put together to help check and mitigate a potential security issue that was highlighted in unit 9s ASMIS Essay.
+#### list of References used while learning the "how and why of the parts" of this script are located at the end of this page  
 
 <br/>
 
@@ -17,8 +19,8 @@ https://user-images.githubusercontent.com/106968996/188339123-c58d5ec9-58e1-445c
 ## What to change/Customize prior to usage (Bold areas inticate what needs to be changed)
 * print("**Scanning scanme.nmap.org for testing reasons due to permissions.** ")
 * target = socket.gethostbyname('**IP Address**', sys.argv[1]) 
-* for port in range(**from port, to port**) *example (1,800)*
-* socket.setdefaulttimeout(**0.2**)
+* for port in range(**from port, to port**) *example (1,800), can also refer to the UML at the bottom of the page for Port ranges*
+* socket.setdefaulttimeout(**0.2**) *example (1) represents one second, (0.5) represents half of a second.*
 * result = s.connect_ex(('**IP Address**', port))
 
 ## Documentation
